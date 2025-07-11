@@ -1,0 +1,92 @@
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+header .capa {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.header-conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  max-width: 90vw;
+  padding: 0 20px;
+}
+
+.header-conteudo h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.header-conteudo p {
+  font-size: 1.5rem;
+  margin: 10px 0 20px;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.header-conteudo button {
+  margin: 0 10px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #6f4e37;
+  color: #ffe6b3;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.header-conteudo button:hover {
+  background-color: #a97460;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .header-conteudo h1 {
+    font-size: 2.2rem;
+  }
+
+  .header-conteudo p {
+    font-size: 1.2rem;
+  }
+
+  .header-conteudo button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    margin: 8px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-conteudo h1 {
+    font-size: 1.7rem;
+  }
+
+  .header-conteudo p {
+    font-size: 1rem;
+  }
+
+  .header-conteudo {
+    text-align: center;
+  }
+
+  .header-conteudo button {
+    width: 100%;
+    max-width: 280px;
+    margin: 10px auto;
+    display: block;
+  }
+}

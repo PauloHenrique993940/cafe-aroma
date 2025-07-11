@@ -1,0 +1,99 @@
+
+#preparo,
+#ambiente {
+  background-color: #f7f1e1;
+  border-radius: 12px;
+}
+
+
+#preparo {
+  padding: 40px;
+  background-color: #fffaf3;
+}
+
+#preparo h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.item {
+  max-width: 300px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.descricao {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+#origem div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+
+}
+#ambiente div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+.ambiente-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+
+#origem img,
+#ambiente img {
+  border-radius: 12px;
+  flex: 2 2 400px;
+  object-fit: cover;
+  max-height: 300px;
+  width: 100%;
+}
+
+#preparo p,
+#origem p,
+#ambiente p {
+  max-width: 700px;
+  margin: 30px auto 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4a2c14;
+}
+

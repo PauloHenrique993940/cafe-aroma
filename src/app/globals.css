@@ -1,42 +1,34 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Quicksand:wght@400;600&display=swap');
+@import url("../app/styles/header.css");
+@import url("../app/styles/section.css");
+@import url("../app/styles/preparo.css");
+@import url("../app/styles/depoimento.css");
+@import url("../app/styles/cardapio.css");
+@import url("../app/styles/contato.css");
+@import url("../app/styles/footer.css");
+
+
+
+
+h1, h2, h3,p {
+  font-family: 'Cormorant Garamond', serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body, p, button {
+  font-family: 'Quicksand', sans-serif;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 * {
   box-sizing: border-box;
-  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
   margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+  background-color: #fffaf4;
+  color: #3e2e1e;
+  line-height: 1.6;
 }
