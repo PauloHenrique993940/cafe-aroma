@@ -6,8 +6,8 @@ export default function Header() {
             <div className="header-conteudo">
                 <h1>Cafeteria Sabor e Aroma</h1>
                 <p>Cafés especiais direto na sua casa!</p>
-                <button onClick={() => scrollToSection('produtos')}>Comprar Agora</button>
-                <button onClick={() => scrollToSection('contato')}>Fale Conosco</button>
+                <button>Comprar Agora</button>
+                <button>Fale Conosco</button>
 
             </div>
         </header>
